@@ -1,0 +1,40 @@
+.login-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 49vw;
+    background-image: url(https://cdn.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-12-full.jpg);
+    border-radius: 25px;
+    transition: 1.5s ease-out;
+    transform: scale(1);
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    background-color: lightblue;
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    transition: 0.5s ease-out;
+    transform: scale(1.1);
+}
+.inputbox{
+    margin-top: 10px;
+    border-radius: 15px;
+    padding-left: 70px;
+    
+
+
+}
+.b1{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+    width: 30%;
+    border-color: rgb(226, 210, 210);
+    cursor: pointer;
+}

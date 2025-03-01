@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.n1{
+    background-color: rgb(90, 221, 221);
+    color: rgb(8, 8, 8);
+    padding: 20px;
+    border-radius: 10px;
+}
+li,ul,h1,h4{
+    display: inline;
+}
+ul{
+    margin-left: 65%;
+    justify-content: space-evenly;
+}
+li{
+    color: gray;
+    cursor: pointer;
+    margin-left: 10px;
+}
+li:hover{
+    color: black;
+}
+input{
+    width: 60%;
+    padding: 20px;
+}
+.Search{
+    padding: 50px;
+    text-align: center;
+    border-width: 20px;
+}
+.box{
+     width: 220px; 
+    border-radius: 10px;
+    border-color:black ;
+    border-width:2px; 
+    border-style:solid ;
+    display: inline-block;  
+    margin-left: 240px;
+}
+#a1{
+   
+   height: 180px;
+   width: 150px;
+   padding: 34px;
+}
+.box:hover{
+     background-color: black;  
+    color: white;
+    transition: 0.5s ease-out;
+    transform: scale(1.1);
+
+}
+.Product{
+     text-align: center;
+}
+#e1{
+    margin-top: -10px;
+    margin-bottom: 8px;
+}
+#r1{
+    margin-right: 60px;
+}
+#r2{
+    margin-right: 55px;
+}
+#r3{
+    margin-right: 49px;
+}
+#s1{
+    width: 100px;
+    margin-left: 57px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header{
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-light-blue-abstract-background-with-floating-forms_956920-33232.jpg);
+}
+body{
+    background-color: rgb(42, 243, 243);
+    padding-bottom: 10px;
+    
+}
+#t1{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:35px;
+    
+}
+#y1{
+    height: 6px;
+    position: relative;
+    top:35px;
+}
